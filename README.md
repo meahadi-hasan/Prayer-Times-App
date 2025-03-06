@@ -10,6 +10,11 @@ The app allows users to input prayer times and receive notifications when silent
 - **Responsive Design**: Works seamlessly on both desktop and mobile devices.
 - **User-Friendly Interface**: Clean and professional design with intuitive controls.
 
+## Live View
+
+You can view the live version of this app here:  
+👉 [Live Demo](https://prayer-times-app-azure.vercel.app/)
+
 ## Technologies Used
 
 - **HTML5**: For structuring the web page.
