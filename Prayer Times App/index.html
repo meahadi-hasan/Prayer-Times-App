@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prayer Times App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>পাঁচ ওয়াক্ত নামাজের সময় সেট করুন</h1>
+        
+        <!-- ফজর -->
+        <div class="prayer-time">
+            <h2><i class="fas fa-pray"></i> ফজর</h2>
+            <label for="fajrStart">শুরু করার সময়:</label>
+            <input type="time" id="fajrStart">
+            <label for="fajrEnd">শেষ করার সময়:</label>
+            <input type="time" id="fajrEnd">
+        </div>
+
+        <!-- জোহর -->
+        <div class="prayer-time">
+            <h2><i class="fas fa-pray"></i> জোহর</h2>
+            <label for="dhuhrStart">শুরু করার সময়:</label>
+            <input type="time" id="dhuhrStart">
+            <label for="dhuhrEnd">শেষ করার সময়:</label>
+            <input type="time" id="dhuhrEnd">
+        </div>
+
+        <!-- আসর -->
+        <div class="prayer-time">
+            <h2><i class="fas fa-pray"></i> আসর</h2>
+            <label for="asrStart">শুরু করার সময়:</label>
+            <input type="time" id="asrStart">
+            <label for="asrEnd">শেষ করার সময়:</label>
+            <input type="time" id="asrEnd">
+        </div>
+
+        <!-- মাগরিব -->
+        <div class="prayer-time">
+            <h2><i class="fas fa-pray"></i> মাগরিব</h2>
+            <label for="maghribStart">শুরু করার সময়:</label>
+            <input type="time" id="maghribStart">
+            <label for="maghribEnd">শেষ করার সময়:</label>
+            <input type="time" id="maghribEnd">
+        </div>
+
+        <!-- ইশা -->
+        <div class="prayer-time">
+            <h2><i class="fas fa-pray"></i> ইশা</h2>
+            <label for="ishaStart">শুরু করার সময়:</label>
+            <input type="time" id="ishaStart">
+            <label for="ishaEnd">শেষ করার সময়:</label>
+            <input type="time" id="ishaEnd">
+        </div>
+
+        <button id="saveButton"><i class="fas fa-save"></i> সময় সেট করুন</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
