@@ -37,7 +37,8 @@ You can view the live version of this app here:
    ```bash
    git clone https://github.com/meahadi-hasan/Prayer-Times-App.git
 2. **Navigate to the Project Directory**:
-   cd prayer-times-app
+   ```bash
+    cd Prayer-Times-App
    
-3. Open the App:
+4. Open the App:
    Open the index.html file in your browser.
